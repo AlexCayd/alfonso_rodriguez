@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfonso Rodríguez | Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/logo.png" alt="Logotipo" class="logo__img">
+            <div class="header__logotxt">
+                <h3 class="header__nombre">Alfonso Rodríguez</h3>
+                <p class="header__puesto">Arquitecto</p>
+            </div>
+        </div>
+
+        <button class="nav__toggle" aria-label="Abrir menú">☰</button>
+        <div class="nav__overlay"></div>
+
+        <nav class="nav">
+            <button class="nav__close" aria-label="Cerrar menú">×</button>
+
+            <a href="#inicio" class="nav__enlace">Inicio</a>
+            <a href="#proyectos" class="nav__enlace">Proyectos</a>
+            <a href="#servicios" class="nav__enlace">Servicios</a>
+            <a href="#sobremi" class="nav__enlace">Sobre mí</a>
+            <a href="https://wa.me/525637185620" target="_blank" class="nav__enlace nav__enlace--whatsapp">
+                <img class="nav__whatsapp" src="img/whatsapp.webp" alt="Logo Whatsapp">
+                Contáctame
+            </a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <video autoplay muted loop playsinline class="hero__video">
+            <source src="img/bg_alfonso.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+
+        <div class="hero__overlay"></div>
+
+        <div class="hero__contenido">
+            <h1 class="hero__titulo">Arquitectura más allá de la forma</h1>
+            <h3 class="hero__subtitulo">Diseñamos espacios únicos con sensibilidad, técnica y elegancia.</h3>
+            <div class="hero__btns">
+                <a href="#" class="hero__btn hero__btn--portafolio">Ver portafolio</a>
+                <a href="#" class="hero__btn hero__btn--contactar">Contáctame</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="servicios">
+        <h2 class="servicios__titulo">Nuestros Servicios</h2>
+        <p class="servicios__descripcion">Soluciones arquitectónicas integrales con la más alta calidad y profesionalismo</p>
+
+        <div class="servicios__grid">
+            <div class="servicio animar-scroll">
+                <img src="img/icons/demolicion.svg" alt="Ícono demolición" class="servicio__icono">
+                <h3 class="servicio__titulo">Demoliciones</h3>
+                <p class="servicio__texto">Técnicas avanzadas para demoler con precisión y seguridad.</p>
+            </div>
+
+            <div class="servicio animar-scroll">
+                <img src="img/icons/proyecto.svg" alt="Ícono proyectos ejecutivos" class="servicio__icono">
+                <h3 class="servicio__titulo">Proyectos Ejecutivos</h3>
+                <p class="servicio__texto">Llevamos tu idea desde el boceto hasta el plano final listo para obra.</p>
+            </div>
+
+            <div class="servicio animar-scroll">
+                <img src="img/icons/supervision.svg" alt="Ícono supervisión" class="servicio__icono">
+                <h3 class="servicio__titulo">Supervisión de Obra</h3>
+                <p class="servicio__texto">Supervisamos cada paso para asegurar precisión y excelencia.</p>
+            </div>
+
+            <div class="servicio animar-scroll">
+                <img src="img/icons/interiores.svg" alt="Ícono interiores" class="servicio__icono">
+                <h3 class="servicio__titulo">Diseño de Interiores</h3>
+                <p class="servicio__texto">Creamos ambientes con personalidad, coherencia y confort.</p>
+            </div>
+
+            <div class="servicio animar-scroll">
+                <img src="img/icons/restauracion.svg" alt="Ícono restauración" class="servicio__icono">
+                <h3 class="servicio__titulo">Restauración</h3>
+                <p class="servicio__texto">Rescatamos el valor arquitectónico y cultural de tus espacios.</p>
+            </div>
+
+            <div class="servicio animar-scroll">
+                <img src="img/icons/mobiliario.svg" alt="Ícono mobiliario" class="servicio__icono">
+                <h3 class="servicio__titulo">Mobiliario a Medida</h3>
+                <p class="servicio__texto">Diseño y fabricación de piezas únicas, adaptadas a tu espacio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos">
+        <h2 class="proyectos__titulo">Proyectos Destacados</h2>
+        <p class="proyectos__descripcion">Cada proyecto es una expresión única de excelencia arquitectónica</p>
+
+        <div class="proyectos__grid">
+
+            <div class="proyecto animar-scroll">
+            <img src="img/proyectos/amsterdam289.png" alt="Ámsterdam 289">
+            <div class="proyecto__info">
+                <div class="proyecto__top">
+                <span class="proyecto__etiqueta">Residencial</span>
+                </div>
+                <div class="proyecto__texto">
+                <h3 class="proyecto__nombre">Ámsterdam 289</h3>
+                <div class="proyecto__meta">
+                    <span>Ciudad de México (2009)</span>
+                    <span class="proyecto__rol">Diseño y Construcción</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="proyecto animar-scroll">
+            <img src="img/proyectos/juandelabarrera.png" alt="Juan de la Barrera">
+            <div class="proyecto__info">
+                <div class="proyecto__top">
+                <span class="proyecto__etiqueta">Residencial</span>
+                </div>
+                <div class="proyecto__texto">
+                <h3 class="proyecto__nombre">Juan de la Barrera</h3>
+                <div class="proyecto__meta">
+                    <span>Ciudad de México (2019)</span>
+                    <span class="proyecto__rol">Diseño, Construcción y Mobiliario</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="proyecto animar-scroll">
+            <img src="img/proyectos/amsterdam68.png" alt="Ámsterdam 68">
+            <div class="proyecto__info">
+                <div class="proyecto__top">
+                <span class="proyecto__etiqueta">Residencial</span>
+                </div>
+                <div class="proyecto__texto">
+                <h3 class="proyecto__nombre">Ámsterdam 68</h3>
+                <div class="proyecto__meta">
+                    <span>Ciudad de México (2017)</span>
+                    <span class="proyecto__rol">Obra completa</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="proyecto animar-scroll">
+            <img src="img/proyectos/amsterdam169.png" alt="Ámsterdam 169">
+            <div class="proyecto__info">
+                <div class="proyecto__top">
+                <span class="proyecto__etiqueta">Residencial Patrimonial</span>
+                </div>
+                <div class="proyecto__texto">
+                <h3 class="proyecto__nombre">Ámsterdam 169</h3>
+                <div class="proyecto__meta">
+                    <span>Ciudad de México (2013)</span>
+                    <span class="proyecto__rol">Estructura y acabados</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="proyecto animar-scroll">
+            <img src="img/proyectos/durango133.png" alt="Durango 133">
+            <div class="proyecto__info">
+                <div class="proyecto__top">
+                <span class="proyecto__etiqueta">Mixto</span>
+                </div>
+                <div class="proyecto__texto">
+                <h3 class="proyecto__nombre">Durango 133</h3>
+                <div class="proyecto__meta">
+                    <span>Ciudad de México (2015)</span>
+                    <span class="proyecto__rol">Excavación, cimentación, acabados</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="proyecto animar-scroll">
+            <img src="img/proyectos/veracruz60.png" alt="Veracruz 60">
+            <div class="proyecto__info">
+                <div class="proyecto__top">
+                <span class="proyecto__etiqueta">Oficinas y Vivienda</span>
+                </div>
+                <div class="proyecto__texto">
+                <h3 class="proyecto__nombre">Veracruz 60</h3>
+                <div class="proyecto__meta">
+                    <span>Ciudad de México (2013)</span>
+                    <span class="proyecto__rol">Acabados generales</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
