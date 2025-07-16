@@ -34,6 +34,15 @@ closeBtn.addEventListener('click', () => {
     overlay.classList.remove('active');
 });
 
+// HERO
+const heroVideo = document.querySelector('.hero__video');
+if (heroVideo) {
+  heroVideo.muted = true;
+  heroVideo.play().catch(err => {
+    // fallback: reinicia al hacer scroll o interacción
+    document.addEventListener('touchstart', () => heroVideo.play(), { once: true });
+  });
+}
 
 // ANIMACION DE ENTRADA
 const animados = document.querySelectorAll('.animar-scroll');
