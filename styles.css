@@ -296,40 +296,43 @@ body {
 }
 
 .hero__btn {
-    padding: 14px 40px;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 10px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  min-height: 48px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hero__btn--portafolio {
-    background-color: var(--colorPrimario);
-    color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: var(--colorPrimario);
+  color: #fff;
+  padding: 10px 44px;
+  border: none;
 }
 
 .hero__btn--portafolio:hover {
-    background-color: #086a94;
-    transform: translateY(-2px);
+  background-color: #086a94;
+  transform: translateY(-2px);
 }
 
 .hero__btn--contactar {
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .hero__btn--contactar:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
 }
 
 /* SERVICIOS */
