@@ -26,8 +26,8 @@
             <button class="nav__close" aria-label="Cerrar menú">×</button>
 
             <a href="#inicio" class="nav__enlace">Inicio</a>
-            <a href="#proyectos" class="nav__enlace">Proyectos</a>
             <a href="#servicios" class="nav__enlace">Servicios</a>
+            <a href="#proyectos" class="nav__enlace">Proyectos</a>
             <a href="#sobremi" class="nav__enlace">Sobre mí</a>
             <a href="https://wa.me/525637185620" target="_blank" class="nav__enlace nav__enlace--whatsapp">
                 <img class="nav__whatsapp" src="img/whatsapp.webp" alt="Logo Whatsapp">
@@ -36,7 +36,7 @@
         </nav>
     </header>
 
-    <main class="hero">
+    <main id="inicio" class="hero">
         <video autoplay muted loop playsinline class="hero__video">
             <source src="img/bg_alfonso.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5.
@@ -54,7 +54,7 @@
         </div>
     </main>
 
-    <section class="servicios">
+    <section id="servicios" class="servicios">
         <h2 class="servicios__titulo">Nuestros Servicios</h2>
         <p class="servicios__descripcion">Soluciones arquitectónicas integrales con la más alta calidad y profesionalismo</p>
 
@@ -97,7 +97,7 @@
         </div>
     </section>
 
-    <section class="proyectos">
+    <section id="proyectos" class="proyectos">
         <h2 class="proyectos__titulo">Proyectos Destacados</h2>
         <p class="proyectos__descripcion">Cada proyecto es una expresión única de excelencia arquitectónica</p>
 
@@ -219,6 +219,119 @@
             <button class="modal__control modal__siguiente">&#10095;</button>
         </div>
     </div>
+
+    <section id="sobremi" class="nosotros">
+        <div class="nosotros__contenido">
+            <h2 class="nosotros__titulo">Alfonso Rodríguez</h2>
+            <p class="nosotros__subtitulo">Visionario arquitectónico con más de tres décadas transformando espacios</p>
+
+            <div class="nosotros__grid">
+            <div class="nosotros__texto">
+                <h3 class="nosotros__encabezado">Una carrera excepcional</h3>
+                <p class="nosotros__txt">
+                Con <strong>más de 35 años de experiencia</strong>, Alfonso Rodríguez ha redefinido el panorama arquitectónico mexicano, fusionando <strong>visión técnica innovadora</strong> con una profunda <strong>sensibilidad urbana</strong>.
+                </p>
+                <p class="nosotros__txt">
+                Su filosofía se basa en la creación de espacios que no solo cumplen su función, sino que <strong>trascienden la forma</strong> para convertirse en experiencias arquitectónicas memorables.
+                </p>
+
+                <div class="nosotros__datos">
+                    <div class="nosotros__dato">
+                        <span class="nosotros__numero" data-target="100">0</span>
+                        <p class="nosotros__descripcion">Proyectos Ejecutados</p>
+                    </div>
+                    <div class="nosotros__dato">
+                        <span class="nosotros__numero" data-target="35">0</span>
+                        <p class="nosotros__descripcion">Años de Experiencia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nosotros__foto">
+                <div class="nosotros__marco">
+                <img src="img/profile.png" alt="Foto Alfonso Rodríguez" class="nosotros__img">
+                <div class="nosotros__card">
+                    <strong>Arq. Alfonso Rodríguez</strong>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proceso">
+        <h2 class="proceso__titulo">Cómo transformo tu visión en realidad</h2>
+        <p class="proceso__subtitulo">Mi proceso de trabajo garantiza que tu proyecto se ejecute con la <strong>excelencia técnica</strong> y <strong>precisión</strong> que merece</p>
+
+        <div class="proceso__grid">
+            <div class="proceso__item animar-scroll">
+            <div class="proceso__icono">01</div>
+            <h3 class="proceso__paso">Análisis Técnico Integral</h3>
+            <p class="proceso__texto">Evaluación estratégica de viabilidad, normativas y estructura. Desde el primer día, garantizo que tu proyecto sea técnica y legalmente sólido.</p>
+            <ul class="proceso__lista">
+                <li>Validación normativa sin sorpresas</li>
+                <li>Análisis estructural preliminar</li>
+                <li>Diagnóstico de factibilidad económica</li>
+            </ul>
+            </div>
+
+            <div class="proceso__item animar-scroll">
+            <div class="proceso__icono">02</div>
+            <h3 class="proceso__paso">Desarrollo Ejecutivo Preciso</h3>
+            <p class="proceso__texto">Planos y especificaciones que eliminan incertidumbre. Cada línea tiene una intención, cada entrega un estándar claro.</p>
+            <ul class="proceso__lista">
+                <li>Planos arquitectónicos detallados</li>
+                <li>Especificaciones técnicas rigurosas</li>
+                <li>Cronograma de obra realista</li>
+            </ul>
+            </div>
+
+            <div class="proceso__item animar-scroll">
+            <div class="proceso__icono">03</div>
+            <h3 class="proceso__paso">Supervisión Especializada</h3>
+            <p class="proceso__texto">Acompañamiento técnico constante en obra para asegurar calidad, cumplimiento y eficiencia constructiva.</p>
+            <ul class="proceso__lista">
+                <li>Supervisión continua en sitio</li>
+                <li>Control de materiales y ejecución</li>
+                <li>Verificación técnica en cada etapa</li>
+            </ul>
+            </div>
+
+            <div class="proceso__item animar-scroll">
+            <div class="proceso__icono">04</div>
+            <h3 class="proceso__paso">Gestión Integral de Riesgos</h3>
+            <p class="proceso__texto">Anticipo problemas técnicos antes de que impacten tu presupuesto o tus tiempos. Porque los imprevistos se resuelven antes, no durante.</p>
+            <ul class="proceso__lista">
+                <li>Detección oportuna de riesgos</li>
+                <li>Planes de contingencia técnica</li>
+                <li>Optimización de recursos y tiempos</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta animar-scroll">
+        <h2 class="cta__titulo">¿Tienes un proyecto en mente?</h2>
+        <p class="cta__subtitulo">Podemos ayudarte a construir algo único. Escribe cuando quieras.</p>
+        <a href="https://wa.me/525637185620" target="_blank" class="cta__btn">Envíanos un mensaje por WhatsApp</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <div class="footer__col">
+            <p class="footer__nombre">© 2025 Alfonso Rodríguez · Arquitecto</p>
+            <p class="footer__link"><a href="https://wa.me/525637185620" target="_blank">Contactar a Alfonso</a></p>
+            </div>
+            <div class="footer__col footer__col--autor">
+            <p class="footer__autor">Sitio web diseñado por <a href="https://alexander-oliva.com" target="_blank">Alexander Oliva</a></p>
+            <p class="footer__link"><a href="https://wa.me/525637185620" target="_blank">Contactar a Alexander</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="https://wa.me/525637185620" target="_blank" class="whatsapp-fijo" aria-label="Contáctame por WhatsApp">
+        <img src="img/whatsapp.webp" alt="Logo Whatsapp" class="whatsapp-icono">
+    </a>
 
     <script src="app.js"></script>
 </body>
